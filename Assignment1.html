@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="Styles.css">
+        <title>Pizza order form</title>
+    </head>
+    <!--BODY CONTENT-->
+    <body>
+        <h1>YUMMY PIZZA</h1>
+        <img src="Pizza.png" alt="Pizza" width="350" height="350" >
+ 
+        <!--DIV-->
+        <div style="width:90% ; margin: auto;">
+
+            <!--FORM-->
+            <form method="post" name="forms" action="Pizza.php">
+    
+                <!--HEADER-->
+                <!--PERSONAL DATA-->
+                <header>
+                    
+                        <legend>Personal Information</legend>
+                        <label>First Name:</label>
+                        <input type="text" name="fname"/>
+                        <label>Last Name:</label>
+                        <input type="text" name="lname"/>
+                        <label>Contact number:</label>
+                        <input type="number" name="Contact"/>
+                        <label>Email:</label>
+                        <input type="email" name="email"/>
+                        <label>Address:</label>
+                        <input type="text" name="add"/>
+                    </header>
+                    
+
+                    <!--MAIN-->
+                    <main>
+                    
+                        <!--ORDER DETAILS-->
+
+                        <fieldset>
+                            <!--Number of pizza-->
+                            <legend>Number of pizzas</legend>
+                            <input type="radio" name="Number of pizza" value="1" />1
+                            <input type="radio" name="Number of pizza" value="2" />2
+                            <input type="radio" name="Number of pizza" value="3" />3
+                            <input type="radio" name="Number of pizza" value="4" />4
+                            <input type="radio" name="Number of pizza" value="5" />5
+                        </fieldset>
+
+                        <fieldset>
+                            <!--Size of pizza-->
+                            <legend>Size</legend>  
+                            <input type="checkbox" name="Size" value="1"/>Small
+                            <input type="checkbox" name="Size" value="2"/>Medium
+                            <input type="checkbox" name="Size" value="3"/>Large
+                            <input type="checkbox" name="Size" value="4"/>Family Pack
+                            <input type="checkbox" name="Size" value="5"/>One slice
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Shape</legend>
+                            <!--Shape of pizza-->
+                            <input type="radio" name="Shape" value="1"/>Square
+                            <input type="radio" name="Shape" value="2"/>Round
+                            <input type="radio" name="Shape" value="3"/>Heart
+                        </fieldset>
+
+                        <fieldset>
+                            <!--Toppings on the pizza-->
+                            <legend>Toppings</legend>
+                            <input type="checkbox" name="Toppings" value="1"/>Mushroom
+                            <input type="checkbox" name="Toppings" value="2"/>Corn
+                            <input type="checkbox" name="Toppings" value="3"/>Jalepino
+                            <input type="checkbox" name="Toppings" value="4"/>Pepper
+                            <input type="checkbox" name="Toppings" value="5"/>Cheese
+                            <input type="checkbox" name="Toppings" value="6"/>Bacon
+                            <input type="checkbox" name="Toppings" value="7"/>Beef
+                            <input type="checkbox" name="Toppings" value="8"/>Onion
+                        </fieldset>
+
+                        <fieldset>
+                            <!--pizza crust-->
+                            <legend>Base of pizza</legend>
+                            <input type="radio" name="Base" value="1"/>New York Crust
+                            <input type="radio" name="Base" value="2"/>Neapolitan Crust
+                            <input type="radio" name="Base" value="3"/>St. Louis Crust
+                            <input type="radio" name="Base" value="4"/>Sicilian Crust
+                            <input type="radio" name="Base" value="5"/>Chicago-Style Deep Dish Crust
+                            <input type="radio" name="Base" value="6"/>Pan Pizza Crust
+                            <input type="radio" name="Base" value="7"/>pizza Margherita extra
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Type of consumption</legend>
+                            <!--Way of eating-->
+                            <input type="radio" name="Type" value="1"/>Dine-in
+                            <input type="radio" name="Type" value="2"/>Take-out
+                            <input type="radio" name="Type" value="3"/>Drive-through
+                            <input type="radio" name="Type" value="4"/>Delivery
+                        </fieldset>
+                    </main>
+                    
+
+                    <!--FOOTER-->
+                        <footer>
+                        <fieldset>
+                            <legend>Feedback</legend>
+                            <textarea name="Feedback"></textarea>
+                        </fieldset>
+                    </footer>
+                    
+
+                    <!--Buttons-->
+                    <input type="submit" value="PLACE YOUR ORDER"/>
+                    <input TYPE="reset" value="RESET"/><br/>
+
+                    <img src="img.png" alt="Thank you">
+        </div>            
+
+            </form>
+        
+        
+
+    </body>
+
+</html>

@@ -1,0 +1,11 @@
+body{
+    background-color: chocolate;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid powderblue;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
